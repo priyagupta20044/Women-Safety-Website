@@ -20,19 +20,17 @@ const Footer = (props) => {
                     {/* <h1 className='text-sm' style={{fontSize:'25px'}}>WOMEN SECURE</h1> */}
 
                     <p className="footer_text" style={{ textAlign: "justify" }}>
-                      At SAFE SIREN , we're dedicated to making Secure website
-                      for women saftey and we give our best at what we do
+                      At SAFETY VIBES , Making secure websites for women's safety is our top priority, and we strive to do our best...
                     </p>
                   </div>
                   <div className="col-lg-4 px-lg-5 mb-4 mb-lg-0">
                     <h3 className="footer_title">Contact</h3>
                     <p className="footer_text">
-                      <a>dodiyameet041@gmail.com</a>
+                      <a>priya.gupta20044@gmail.com</a>
                       <br />
                       <a className="footer-address">
-                        K.T Marg, Vidyavardhini's College of Engineering and
-                        Technology, <br />
-                        Vasai, Maharashtra, India
+                        INDIRA GANDHI DELHI TECHNICAL UNIVERISTY FOR WOMEN <br />
+                        New Delhi, India
                       </a>
                     </p>
                   </div>
@@ -40,14 +38,14 @@ const Footer = (props) => {
                     <h3 className="footer_title">Social Media</h3>
                     <p>
                       <a
-                        href="https://www.linkedin.com/in/meetdodiya/"
+                        href="https://www.linkedin.com/in/priyagupta20044/"
                         className="footer_social_media_icon"
                         style={{ color: "white" }}
                       >
                         <BsLinkedin size={25} />
                       </a>
                       <a
-                        href="https://github.com/MeetDOD"
+                        href="https://github.com/priyagupta20044"
                         className="footer_social_media_icon"
                         style={{ color: "white" }}
                       >
@@ -57,7 +55,7 @@ const Footer = (props) => {
                   </div>
                   <div className="col-12 footer_credits text-center">
                     <span>
-                      © 2023 <a>Women Safety</a>™. All Rights Reserved.
+                      © 2024 <a>Women Safety</a>™. All Rights Reserved.
                     </span>
                   </div>
                 </div>
@@ -76,19 +74,17 @@ const Footer = (props) => {
                     {/* <h1 className='text-sm' style={{fontSize:'25px'}}>WOMEN SECURE</h1> */}
 
                     <p className="footer_text" style={{ textAlign: "justify" }}>
-                      At SAFE SIREN , we're dedicated to making Secure website
-                      for women saftey and we give our best at what we do
+                    At SAFETY VIBES , Making secure websites for women's safety is our top priority, and we strive to do our best...
                     </p>
                   </div>
                   <div className="col-lg-4 px-lg-5 mb-4 mb-lg-0">
                     <h3 className="footer_title">Contact</h3>
                     <p className="footer_text">
-                      <a>dodiyameet041@gmail.com</a>
+                      <a>priya.gupta20044@gmail.com</a>
                       <br />
                       <a className="footer-address">
-                        K.T Marg, Vidyavardhini's College of Engineering and
-                        Technology, <br />
-                        Vasai, Maharashtra, India
+                      INDIRA GANDHI DELHI TECHNICAL UNIVERISTY FOR WOMEN <br />
+                      New Delhi, India
                       </a>
                     </p>
                   </div>
@@ -96,14 +92,14 @@ const Footer = (props) => {
                     <h3 className="footer_title">Social Media</h3>
                     <p>
                       <a
-                        href="https://www.linkedin.com/in/meetdodiya/"
+                        href="https://www.linkedin.com/in/priyagupta20044/"
                         className="footer_social_media_icon"
                         style={{ color: "white" }}
                       >
                         <BsLinkedin size={25} />
                       </a>
                       <a
-                        href="https://github.com/MeetDOD"
+                        href="https://github.com/priyagupta20044"
                         className="footer_social_media_icon"
                         style={{ color: "white" }}
                       >
@@ -113,7 +109,7 @@ const Footer = (props) => {
                   </div>
                   <div className="col-12 footer_credits text-center">
                     <span>
-                      © 2023 <a>SAFE SIREN</a>™. All Rights Reserved.
+                      © 2024 <a>SAFETY VIBES</a>™. All Rights Reserved.
                     </span>
                   </div>
                 </div>

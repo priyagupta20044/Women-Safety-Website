@@ -6,7 +6,7 @@
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 5px;
-  color: rgb(111, 0, 215);
+  color: #ed4161;
 }
 .features_wrapper .features_title {
   font-weight: 800;
@@ -29,21 +29,44 @@
   color: #101010;
 }
 .features_wrapper .ft-1 {
-  background: #ba9aff;
+  /* background: #ba9aff; */
   padding: 40px;
   border-radius: 15px;
+  border : 2px solid rgb(246, 194, 210);
 }
 .features_wrapper .ft-2 {
-  background: #9e63ff;
+  /* background: #9e63ff; */
   padding: 40px;
   border-radius: 15px;
+  border : 2px solid rgb(246, 194, 210);
 }
 .features_wrapper .ft-3 {
-  background: #ba9aff;
+  /* background: #ba9aff; */
   padding: 40px;
   border-radius: 15px;
+  border : 2px solid rgb(246, 194, 210);
 }
-
+.my-1{
+  background-color: #FB928E;
+}
+.my-2{
+  background-color: #FBC4BF;
+}
+.my-3{
+  background-color: #FFD8CC;
+}
+.my-1:hover{
+  transform : translateY(-40px);
+  transition-duration: 0.7s;
+}
+.my-2:hover{
+  transform : translateY(-40px);
+  transition-duration: 0.7s;
+}
+.my-3:hover{
+  transform : translateY(-40px);
+  transition-duration: 0.7s;
+}
 @media (max-width: 1201px) {
   .img-fixed {
     width: 60px;

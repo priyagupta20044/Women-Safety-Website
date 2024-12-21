@@ -2,11 +2,14 @@ import React from "react";
 import "../styles/features.css";
 import "../styles/features.css";
 import search from "../gifs/search.gif";
-import puzzle from "../gifs/puzzle.gif";
-import statis from "../gifs/statis.gif";
-import noti from "../gifs/noti.gif";
 import rock from "../gifs/rock.gif";
 import proct from "../gifs/proct.gif";
+import loc from "../images/loc.png";
+import emer from "../images/emergency.png"
+import rep from "../images/reporting.png"
+import mail from "../images/mail.png"
+import chat from "../images/chat.png"
+import lock from "../images/lock.webp"
 
 const Features = () => {
   return (
@@ -21,71 +24,64 @@ const Features = () => {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-1 text-center header-img-section">
-                <img src={search} width={150} />
+              <div className="ft-1 text-center header-img-section my-1">
+                <img src={mail} width={150} />
                 <h3 className="mt-4">Emergency Mail Alert</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  We take your security seriously, and that's why we've
-                  implemented Mailing systems. Your information is safeguarded
-                  with the latest encryption technology, ensuring your Safety
-                  and security.Allowing users to track loved ones!
+                Your security is our priority, which is why we have integrated advanced mailing systems. 
+                Your data is protected with cutting-edge encryption, ensuring safety and peace of mind. 
+                Easily keep tabs on your loved ones with seamless tracking!
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-2 text-center header-img-section">
-                <img src={puzzle} width={150} />
+              <div className="ft-2 text-center header-img-section my-2">
+                <img src={emer} width={150} />
                 <h3 className="mt-4">Emergency Service support</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  Get ready to explore every angle, every detail, and every
-                  curve of Secuity. Get email and mobile notification when
-                  person is in danger by just one tap and all SOS will be sent
-                  with locations with precise locations{" "}
+                Discover every aspect of safety with ease. Get instant email and mobile alerts when someone is in danger, 
+                all with a single tap. Precise SOS notifications with real-time locations ensure help is just around the corner.{" "}
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-1 text-center header-img-section">
-                <img src={statis} width={150} />
-                <h3 className="mt-4">Incident Reporting</h3>
+              <div className="ft-1 text-center header-img-section my-3">
+                <img src={rep} width={150} height={140} />
+                <h3 className="mt-4">Report the Incident</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  We take your Community seriously, and that's why we've
-                  implemented Incident reporting for community. Your detail and
-                  information is safeguarded with the latest encryption
-                  technology, ensuring your details to be private.
+                Building a safer community is essential, so we have introduced secure incident reporting. 
+                Your personal information remains private with state-of-the-art encryption, protecting your 
+                details while you help make a difference.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-2 text-center header-img-section">
-                <img src={noti} width={150} />
+              <div className="ft-2 text-center header-img-section my-1">
+                <img src={loc} width={150} height={150} />
                 <h3 className="mt-4">Live location </h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  With the help of latest technology and devices available
-                  widely in market we use live location to track the victim and
-                  safeguard her form the unnecessary threats and keep them safe.
+                Using modern technology and widely available devices, we leverage live location tracking to safeguard victims from 
+                potential threats, ensuring their safety and keeping them out of harm is way.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-1 text-center header-img-section">
-                <img src={rock} width={150} />
-                <h3 className="mt-4">Emergency Chat</h3>
-                <p className="features_text" style={{ textAlign: "justify" }}>
-                  When there is emergency you need help in every way possbile
-                  our operators connected with goverment offcials will connect
-                  you and help you get of that unnecessary situation.
+              <div className="ft-1 text-center header-img-section my-2">
+                <img src={chat} width={190} height={145} />
+                <h3 className="mt-4">Emergency Chatting</h3>
+                <p className="features_text" style={{ textAlign: "justify" }}>                  
+                  In emergencies, every second counts. Our operators, in collaboration with government officials, 
+                  work swiftly to connect you with help and guide you out of difficult situations efficiently.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
-              <div className="ft-2 text-center header-img-section">
-                <img src={proct} width={150} />
+              <div className="ft-2 text-center header-img-section my-3">
+                <img src={lock} width={140} height={140} />
                 <h3 className="mt-4">Mail services</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  Get email to explore every angle, every detail, and every
-                  curve of your the app with the mail services they prompt when
-                  your nearby ones are in danger or the loved ones are in danger.
+                Stay informed effortlessly with our mailing services. Alerts are sent promptly when your loved ones or
+                 close connections face danger, helping you stay prepared and take action when it matters most.
                 </p>
               </div>
             </div>
